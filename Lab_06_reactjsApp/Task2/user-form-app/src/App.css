@@ -1,0 +1,141 @@
+/* 🌿 LIGHT GREEN PROFESSIONAL THEME */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  background: linear-gradient(135deg, #e6f9ec, #d1fae5, #a7f3d0);
+  background-size: 300% 300%;
+  animation: bgMove 10s ease infinite;
+
+  color: #064e3b;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* 🌐 HEADER */
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* 🌐 NAVBAR */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  background: #d1fae5;
+  padding: 15px;
+  margin: 20px auto;
+
+  width: fit-content;
+  border-radius: 12px;
+
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #065f46;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #059669;
+}
+
+/* 📦 MAIN CARD */
+.container {
+  width: 90%;
+  max-width: 700px;
+
+  margin: 40px auto;
+  padding: 40px;
+
+  background: #f0fdf4;
+  border-radius: 20px;
+
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+
+  text-align: center;
+}
+
+/* 📝 TEXT */
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #065f46;
+}
+
+/* 🔘 BUTTON GROUP */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* 🔘 BUTTON */
+.btn {
+  padding: 12px 20px;
+
+  border-radius: 10px;
+  border: none;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  background: #34d399;
+  color: white;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #059669;
+  transform: translateY(-2px);
+}
+
+/* ✍️ INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+
+  border-radius: 10px;
+  border: none;
+
+  background: #d1fae5;
+  color: #064e3b;
+}
+
+/* 📦 CARD */
+.card {
+  margin-top: 15px;
+  padding: 15px;
+
+  border-radius: 12px;
+  background: #d1fae5;
+
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 💬 MESSAGE */
+.message {
+  margin-top: 20px;
+  font-size: 18px;
+}
